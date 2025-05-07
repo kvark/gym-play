@@ -24,7 +24,7 @@ while not episode_over:
     if linear[1] > 0.5:
         desired_fall_velocity = -0.3
     elif linear[1] > 0.1:
-        desired_fall_velocity = -0.1
+        desired_fall_velocity = -0.05
     else:
         desired_fall_velocity = 0
 
